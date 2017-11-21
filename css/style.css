@@ -458,6 +458,7 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
+  box-shadow: 0 0 15px 0 rgba(0,1,1,0.2);
 }
 nav {
   background-color: #fff;
@@ -791,14 +792,14 @@ footer .container {
   background-position: -159px -62px;
 }
 .modal {
- width: 568px;
- height: 395px;
- background: #fff;
- position: absolute;
- left: 50%;
- margin-left: -284px;
- top: 2323px;
- display: none;
+  width: 568px;
+  height: 395px;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 2323px;
+  display: none;
 }
 .modal .container {
   width: 567px;
